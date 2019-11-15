@@ -6,7 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pelican-markdown = {index = "pypi",version = "*"}
+pelican[Markdown] = {index = "pypi",version = "*"}
 pelican = {index = "pypi",version = "*"}
 markdown = {index = "pypi",version = "*"}
 

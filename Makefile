@@ -91,3 +91,8 @@ github: publish
 
 
 .PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload github
+
+prep:
+	pip install pipenv
+	pipenv sync --dev
+	touch .env
