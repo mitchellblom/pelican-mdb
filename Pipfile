@@ -4,9 +4,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+http-server = "*"
 
 [packages]
-pelican[Markdown] = {index = "pypi",version = "*"}
 pelican = {index = "pypi",version = "*"}
 markdown = {index = "pypi",version = "*"}
 
